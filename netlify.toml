@@ -1,0 +1,6 @@
+# netlify.toml: Netlify deploy config.
+# Sets base, publish, and build command.
+[build]
+  base = "build"      # build folder for output
+  publish = "build"   # folder to deploy
+  command = "npm run build"   # build command 
